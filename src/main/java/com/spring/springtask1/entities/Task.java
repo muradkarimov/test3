@@ -36,8 +36,5 @@ public class Task {
     private List<User> taskUsers;
 
 
-    @ManyToOne()
-    @JsonBackReference
-    @JoinColumn(name="admin_id")
-    private Admin admin;
+
 }
